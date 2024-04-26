@@ -1,0 +1,64 @@
+You must answer at least 4 questions, but the remaining ones are optional. The main goal of this file is to get you thinking critically about your own work, but we will also use these self reflections at the end of the semester when we do our internal review of the course.
+
+ArrayDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: The staff solution includes a private helper method wrapIndex to account for negative indices, and it's always nice to use helper methods. 
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: I was proud of the circular topology and how I used the mod operator to find indices.  
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A:  
+
+Q: What did you learn by talking to your partner about writing ArrayDeque?
+
+A:
+
+Q: What do you wish you would have known before writing ArrayDeque, if anything?
+
+A: 
+
+Q: If you wrote ArrayDeque again, what would you do differently, if anything?
+
+A: I had deleted my variable maxCapacity that is initialized at 8. The staff solutions says that this private static final int "START_SIZE" is not necessary, but good practice.
+Next time I would leave this variable in.
+
+-----
+
+LinkedListDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: The staff solution used an enhanced for loop to test the LinkedListDeque Iterator, so I believe I could have tried using that instead of a regular for loop.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: I was proud of my overriding equals method, and it closely matched the staff solution so I feel more confident in the correctness of mine.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: 
+
+Q: What did you learn by talking to your partner about writing LinkedListDeque?
+
+A:
+
+Q: What do you wish you would have known before writing LinkedListDeque, if anything?
+
+A:
+
+Q: If you wrote LinkedListDeque again, what would you do differently, if anything?
+
+A:
+
+-----
+
+Meta:
+
+Q: Did you like this design review process? Anything we should do differently next time?
+
+A: Yes it was helpful having the staff review their solution. It was nice talking to my peers about it.
